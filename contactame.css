@@ -1,0 +1,70 @@
+
+  /*!------ Inicio mapa ------>*/
+  .map-responsive {
+    position:relative;
+    overflow: hidden;
+    padding-bottom:50%;
+    height:100%;
+  }
+  
+  .map-responsive iframe{
+    position:absolute;
+    left:0;
+    top:0;
+    
+  }
+  /*!------ Final mapa ------->*/
+  
+
+  /*!------ Inicio hacia arriba footer scrool button -------->*/
+  
+  .lierlis {
+    scroll-behavior: smooth;
+  }
+  
+  .btn-scrolltop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    background: #030200;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 1;
+    transform: translateY(100px);
+    transition: 0.3s;
+  }
+  
+  .btn-scrolltop-on {
+    transform: translateY(0);
+  }
+  /*!------ Final arriba footer scrool button ------->*/
+  
+  
+  hr {
+    width: 100%;
+  }
+  
+  
+  
+  /*!----INICIO  FOOTER!----->*/
+  
+  .footer {
+    margin-top: 1%;
+    width: 100%;
+    padding: 0px 0px;
+    position: relative;
+    }
+  
+  .footer_p{
+    color: #000;
+    text-align: center;
+    }
+  
+  .footer_p2{
+    color: #000;
+    text-align: center;
+  }
+  /*!--------- FINAL  FOOTER --------------->*/
